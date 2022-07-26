@@ -1,9 +1,8 @@
 /* White Box */
 .dice-container{
     position: absolute;
-    width: 50%;
-    min-width: 320px;
-    max-width: 40%;
+    height: 90vw;
+    max-height: 90%;
     aspect-ratio: 1 / 1;
     border-radius: 10px;
     background:#F5F5F5;
@@ -14,7 +13,7 @@
 }
 
 .dice-title{
-    font-size: calc(3vw + 40%);
+    font-size:clamp(16px, 7vw, 100px);
     text-align: center;
     letter-spacing: -0.03em;
     color: #2B283A;
@@ -22,7 +21,7 @@
 }
 
 .dice-description {
-    font-size: calc(1.5vw + 20%);
+    font-size: clamp(40px, 1.5vw, 60px);
     font-family: 'Inter';
     text-align: center;
     letter-spacing: -0.03em;
@@ -32,7 +31,7 @@
 }
 
 .dice {
-    margin-top: 10%;
+    margin-top: 5%;
     display: grid;
     align-items: center;
     align-content: center;
@@ -41,7 +40,7 @@
 }
 
 .die {
-    width: 50%;
+    width: 8.75vw;
     aspect-ratio: 1/1; 
     margin: 9% 15%;
     padding: 10%; 
@@ -54,7 +53,7 @@
 /* Die's faces */
 .dot {
     display: block;
-       width: calc(0.9vw + 3px);
+       width: 2.15vw;
        aspect-ratio: 1/1;
        border-radius: 50%;
        background: #FFFFFF;
@@ -116,7 +115,7 @@
 
 .dice-button{
     margin: 7% 39%;
-    width: 23%;
+    width: 20vw;
     aspect-ratio: 2.5 / 1;
     cursor: pointer;
     border: none;
@@ -125,6 +124,6 @@
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.18);
     border-radius: 4px;
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 2.6vw;
 }
 
