@@ -1,8 +1,9 @@
 /* White Box */
 .dice-container{
     position: absolute;
-    height: 90vw;
-    max-height: 90%;
+    width: auto;
+    min-height: 255px;
+    max-height: 900px;
     aspect-ratio: 1 / 1;
     border-radius: 10px;
     background:#F5F5F5;
@@ -13,7 +14,7 @@
 }
 
 .dice-title{
-    font-size:clamp(16px, 7vw, 100px);
+    font-size:4vw;
     text-align: center;
     letter-spacing: -0.03em;
     color: #2B283A;
@@ -21,7 +22,7 @@
 }
 
 .dice-description {
-    font-size: clamp(40px, 1.5vw, 60px);
+    font-size: 1.5vw;
     font-family: 'Inter';
     text-align: center;
     letter-spacing: -0.03em;
@@ -40,7 +41,7 @@
 }
 
 .die {
-    width: 8.75vw;
+    width: 50%;
     aspect-ratio: 1/1; 
     margin: 9% 15%;
     padding: 10%; 
@@ -53,10 +54,10 @@
 /* Die's faces */
 .dot {
     display: block;
-       width: 2.15vw;
-       aspect-ratio: 1/1;
-       border-radius: 50%;
-       background: #FFFFFF;
+    width: 1.1vw;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: #FFFFFF;
 }
 
 .first-face {
@@ -115,7 +116,7 @@
 
 .dice-button{
     margin: 7% 39%;
-    width: 20vw;
+    width: 23%;
     aspect-ratio: 2.5 / 1;
     cursor: pointer;
     border: none;
@@ -124,6 +125,6 @@
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.18);
     border-radius: 4px;
     font-weight: 700;
-    font-size: 2.6vw;
+    font-size: 1.5vw;
 }
 
